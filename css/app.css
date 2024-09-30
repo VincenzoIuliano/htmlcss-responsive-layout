@@ -25,6 +25,40 @@ html {
     font-family: "Montserrat", sans-serif;
 }
 
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container {
+    max-width: 1367px;
+    margin: 0 auto;
+}
+
+.card_title {
+    flex-direction: column;
+    margin-bottom: 40px;
+    margin-top: 65px;
+}
+
+.card_body {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+}
+
+.recipe_description {
+    padding-left: 35px;
+    padding-top: 50px;
+    padding-right: 100px;
+}
+
+.recipe_description > * {
+    gap 20px;
+}
+
+/* NAVBAR  */
+
 .Booleano_site {
     font-family: "Nerko One";
     font-weight: 500;
@@ -33,6 +67,19 @@ html {
     color: #FF9614;
     padding: 25px;
 }
+
+/* MAIN  */
+
+main {
+    background-color: #D9D9D9 ;
+}
+
+
+
+
+
+
+
 
 
 /* media queries */
