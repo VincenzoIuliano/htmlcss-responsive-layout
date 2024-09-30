@@ -45,7 +45,7 @@ html {
     display: flex;
     flex-wrap: wrap;
     background-color: white;
-    
+    width: 100%;
 }
 
 .recipe_description {
@@ -78,16 +78,21 @@ main {
 
 .social_list {
     display: flex;
-    /* flex-wrap: wrap; */
-    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
     padding-top: 35px;
     padding-bottom: 40px;
+    width: 100%;
 }
 
 .btn {
     border: 2px solid black;
     border-radius: 999px;
     padding: 15px 60px;
+}
+
+.banner { 
+    width: 100%;
 }
 
 
