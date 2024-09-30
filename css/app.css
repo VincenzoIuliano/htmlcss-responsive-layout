@@ -24,3 +24,34 @@ img  {
 html {
     font-family: "Montserrat", sans-serif;
 }
+
+.Booleano_site {
+    font-family: "Nerko One";
+    font-weight: 500;
+    font-style: normal;
+    font-size: 45px;
+    color: #FF9614;
+    padding: 25px;
+}
+
+
+/* media queries */
+/* DESKTOP FIRST */
+
+@media (max-width: 767.99px) {
+
+    .navbar {
+        text-align: center;
+    }
+
+ }
+
+
+
+
+
+/* DEBUG  */
+
+.debug{
+    border: 2px solid black;
+}
